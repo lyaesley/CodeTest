@@ -5,7 +5,7 @@ import java.util.*;
 public class Fish {
     //N 탐욕스러운 물고기들이 강을 따라 움직이고 있습니다. 얼마나 많은 물고기가 살아 있는지 계산하십시오.
     //O(N), 100%
-    static int solution(int[] A, int[] B) {
+    static int solution2(int[] A, int[] B) {
 
         Stack<Integer> size = new Stack<>();
         Stack<Integer> way = new Stack<>();
@@ -45,6 +45,25 @@ public class Fish {
         return result;
     }
 
+    //개선
+    //O(N), 100%
+    static int solution(int[] A, int[] B) {
+        Stack<Integer> down = new Stack<>();
+        int alive = 0;
+        for (int i = 0; i < A.length; i++) {
+            if (B[i] == 1) {
+                down.push(A[i]);
+            } else {
+                while (!down.isEmpty() && down.peek() < A[i]) {
+                    down.pop();
+                }
+                if (down.isEmpty()) {
+                    alive++;
+                }
+            }
+        }
+        return alive + down.size();
+    }
     public static void main(String[] args) {
         int[] A = {4,3,2,1,5};
         int[] B = {0 ,1, 0, 0, 0};
