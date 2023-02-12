@@ -1,4 +1,4 @@
-package codility;
+package codility.stacksQueues;
 
 import java.util.*;
 
