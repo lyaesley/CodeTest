@@ -1,4 +1,4 @@
-package programmers.test;
+package programmers.test.level1;
 
 
 class trio {
