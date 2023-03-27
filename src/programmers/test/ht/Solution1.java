@@ -34,7 +34,7 @@ public class Solution1 {
 
     public static void main(String[] args) {
 
-        String a = "asdfasdfasdf#$%@ as23489057983dkjhafdskASDFASDFwqarezlxncvoiawrhn";
+        String a = "asdfasdfasdf#$%@ as23489057983dkjhafdskASDFASDFwqarezasdgasdf$^#$^lxncvoiawrhn";
 
         System.out.println(solution(a));
 
