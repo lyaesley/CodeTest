@@ -33,7 +33,7 @@ public class 대충만든자판 {
 
     public static void main(String[] args) {
         String[] keymap = {"AAA"};
-        String[] targets = {"BB"};
+        String[] targets = {"BBB"};
         solution(keymap, targets);
     }
 }
