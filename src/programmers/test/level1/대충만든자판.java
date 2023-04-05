@@ -32,8 +32,8 @@ public class 대충만든자판 {
     }
 
     public static void main(String[] args) {
-        String[] keymap = {"AAA"};
-        String[] targets = {"BBB"};
+        String[] keymap = {"AAAA"};
+        String[] targets = {"BBBB"};
         solution(keymap, targets);
     }
 }
