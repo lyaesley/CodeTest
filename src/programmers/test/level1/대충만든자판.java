@@ -32,8 +32,8 @@ public class 대충만든자판 {
     }
 
     public static void main(String[] args) {
-        String[] keymap = {"AAAAAAAAAAAAAA12131415161718192021222324"};
-        String[] targets = {"BBBBBBBBBBBBBB12131415161718192021222324"};
+        String[] keymap = {"AAAAAAAAAAAAAA1213141516171819202122232425"};
+        String[] targets = {"BBBBBBBBBBBBBB1213141516171819202122232425"};
         solution(keymap, targets);
     }
 }
