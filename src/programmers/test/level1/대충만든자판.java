@@ -38,6 +38,6 @@ public class 대충만든자판 {
                 "6768697071727374757677787980818283848586878889"};
         solution(keymap, targets);
 
-        System.out.println("display 1");
+        System.out.println("display 12");
     }
 }
