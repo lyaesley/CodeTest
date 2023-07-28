@@ -39,5 +39,7 @@ public class 대충만든자판 {
         solution(keymap, targets);
 
         System.out.println("display 12");
+
+        System.out.println("display_new 12");
     }
 }
